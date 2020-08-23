@@ -1,0 +1,94 @@
+<div class="container">
+  <!--The content below is only a placeholder and can be replaced.-->
+  <div style="text-align:center">
+    <h1>
+      Welcome to {{ title }}!
+    </h1>    
+    <img width="300" alt="Angular Logo" src="http://www.cga.co.th/images/a/cga.png">
+  </div>
+  <div class="row">
+    <div class="col-md-8">
+      What are we doing
+      We were founded in 2000 , when D.K. Thanakrit (อ.ธนกฤต คุปกาญจนา) had experience and vision to serve our customers
+      in Air Condition Industry. Over the years, we expand our business to serve in Automotive, Consumer Electric, HDD,
+      Electronic
+      Components and Wire Hardness. Our management system have be certified by URS. We received ISO/TS 16949-2009 since
+      October 14, 2011. "Manufacture of rubber parts and accessories for automative."
+
+      Today the world say to Asia Century. We believe in AEC which will push and pull better economic in Thailand. Then
+      we hope you BELIEVE IN CGA
+    </div>
+    <div class="col-md-4 bg-david">
+      <div align="center">
+        <img src="http://www.cga.co.th/images/about/david.png" width="300px" class="img-responsive"
+          style="margin:  10px  10px  10px  10px">
+        <div class="border-contact">
+          <div class="text-box">
+            <h4>David Thanakrit Kupakanchana</h4>
+            <h5>Chairman and Corporated Founder</h5>
+            <h5>CGA CO., LTD.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="row">      
+      <p *ngIf="heroes.length > 3">There are many heroes!</p>
+    <div id="detail" class="col-md-4" *ngFor="let hero of heroes">
+      <h2>{{ hero }}</h2>
+      <p>{{about.detail}}</p>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="margin-top:50px;">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        <div class="card-body">
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        <div class="card-body">
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        <div class="card-body">
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

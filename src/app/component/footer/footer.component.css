@@ -1,0 +1,15 @@
+.footer {
+    position: relative;
+    bottom: 0px;
+    height: 250px;
+    background-color: #D3D3D3;
+}
+
+.logo {    
+    width: 150px;
+    color: rosybrown;
+}
+
+.logo :hover {
+    color: red;
+}
